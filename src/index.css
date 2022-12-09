@@ -9,4 +9,8 @@
     .sidebar-tooltip {
         @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-3xl shadow-lg text-white bg-slate-700 text-xs font-bold transition-all duration-100 scale-0 origin-left;
       }
+    h2 {
+        @apply text-4xl font-extrabold text-secondary m-6
+    }
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik');

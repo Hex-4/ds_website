@@ -9,6 +9,9 @@ module.exports = {
         secondary: "#e0c100",
       },
     },
+    fontFamily: {
+      "sans": "Rubik"
+    },
   },
   variants: {
     extend: {},
