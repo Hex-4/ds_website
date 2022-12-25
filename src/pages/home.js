@@ -9,7 +9,7 @@ export default function Home() {
                 
             </div>
             <div className="grid grid-cols-4 grid-rows-3 gap-4 w-full m-8">
-                <div className="group row-span-3 p-8 bg-slate-800 rounded-lg hover:from-secondary hover:to-orange-500 hover:bg-gradient-to-tr transition-all duration-1000"><p className="norm-text md:text-5xl text-3xl">We're <b className="text-secondary group-hover:text-blue-600 transition-all ">Diamond Studios</b>, a bunch of people trying to make the world cooler.</p></div>
+                <div className="group row-span-3 p-8 bg-slate-800 rounded-lg hover:bg-secondary transition-all duration-1000"><p className="norm-text md:text-5xl text-3xl">We're <b className="text-secondary group-hover:text-blue-600 transition-all ">Diamond Studios</b>, a bunch of people trying to make the world cooler.</p></div>
             </div>
             
             
