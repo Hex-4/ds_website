@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
 import ErrorPage from "./error-page";
 import Projects from "./pages/projects";
-import Home from "./pages/home"
-import W2 from "./pages/w2-2023"
+import Home from "./pages/home";
+import Special from "./specials/nospec";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -29,15 +25,14 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "2023/",
-        element: <W2/>,
+        path: "special/",
+        element: <Special />,
       },
       {
         path: "/",
-        element: <Home/>
-      }
+        element: <Home />,
+      },
     ],
-    
   },
 ]);
 
