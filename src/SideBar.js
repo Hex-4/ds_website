@@ -5,6 +5,7 @@ import {
 } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { HiSquares2X2, HiSparkles } from "react-icons/hi2";
+import {IoPlanet} from "react-icons/io5"
 
 const SideBar = () => {
   return (
@@ -15,12 +16,15 @@ const SideBar = () => {
       <Link to="projects">
         <SideBarIcon icon={<HiSquares2X2 size="32" />} text="Projects" />
       </Link>
-      <SideBarIcon icon={<BsFillLightningFill size="20" />} text="Go HYPR" />
-      <SideBarIcon icon={<BsPeopleFill size="20" />} text="The Team" />
+      <SideBarIcon icon={<IoPlanet size="20" />} text="The 'Verse" />
+      <Link to="hypr">
+        <XSideBarIcon icon={<BsFillLightningFill size="20" />} text="Go HYPR" />
+      </Link>
       <div className="flex-grow"></div>
       <Link to="special">
         <XSideBarIcon icon={<HiSparkles size="20" />} text="oooh" />
       </Link>
+      
     </div>
   );
 };
