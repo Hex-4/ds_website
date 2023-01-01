@@ -5,6 +5,7 @@ import App from './App';
 import ErrorPage from "./error-page";
 import Projects from "./pages/projects";
 import Home from "./pages/home"
+import W2 from "./pages/w2-2023"
 
 import {
   createBrowserRouter,
@@ -27,6 +28,14 @@ const router = createBrowserRouter([
         path: "home/",
         element: <Home />,
       },
+      {
+        path: "2023/",
+        element: <W2/>,
+      },
+      {
+        path: "/",
+        element: <Home/>
+      }
     ],
     
   },

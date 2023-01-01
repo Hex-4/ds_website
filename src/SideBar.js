@@ -1,6 +1,6 @@
 import { BsFillLightningFill, BsDiamondFill, BsPeopleFill} from 'react-icons/bs';
 import {Link} from "react-router-dom";
-import {HiSquares2X2} from "react-icons/hi2"
+import {HiSquares2X2, HiSparkles} from "react-icons/hi2"
 
 
 const SideBar = () => {
@@ -12,12 +12,21 @@ const SideBar = () => {
                 <Link to="projects"><SideBarIcon icon={<HiSquares2X2 size="32" />} text="Projects"/></Link>
                 <SideBarIcon icon={<BsFillLightningFill size="20" />}text="Go HYPR" />
                 <SideBarIcon icon={<BsPeopleFill size="20" />} text="The Team"/>
+                <div className='flex-grow'></div>
+                <Link to="2023"><XSideBarIcon icon={<HiSparkles size="20"/>} text="W2-2023"/></Link>
             </div>
     );
 };
 
 const SideBarIcon = ({ icon, text = 'tooltip 💡' }) => (
     <div className="sidebar-icon group flex-none">
+      {icon}
+  
+      <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
+    </div>
+  );
+  const XSideBarIcon = ({ icon, text = 'tooltip 💡' }) => (
+    <div className="x-sidebar-icon group flex-none">
       {icon}
   
       <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
