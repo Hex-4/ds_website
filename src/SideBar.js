@@ -22,7 +22,7 @@ const SideBar = () => {
       </Link>
       <div className="flex-grow"></div>
       <Link to="special">
-        <XSideBarIcon icon={<HiSparkles size="20" />} text="oooh" />
+        <DisabledSideBarIcon icon={<HiSparkles size="20" />} text="No events..." />
       </Link>
       
     </div>
@@ -38,6 +38,14 @@ const SideBarIcon = ({ icon, text = "tooltip 💡" }) => (
 );
 const XSideBarIcon = ({ icon, text = "tooltip 💡" }) => (
   <div className="x-sidebar-icon group flex-none">
+    {icon}
+
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
+  </div>
+);
+
+const DisabledSideBarIcon = ({ icon, text = "tooltip 💡" }) => (
+  <div className="d-sidebar-icon group flex-none">
     {icon}
 
     <span className="sidebar-tooltip group-hover:scale-100">{text}</span>

@@ -9,6 +9,9 @@
   .x-sidebar-icon {
     @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-gradient-to-tr from-green-500 to-blue-500 hover:bg-secondary rounded-3xl text-secondary hover:text-gray-300 hover:rounded-xl transition-all ease-in-out;
   }
+  .d-sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-gradient-to-tr  border-dashed border-4 border-gray-500 rounded-3xl text-gray-500 hover:text-gray-300 hover:border-gray-300 hover:rounded-xl transition-all ease-in-out;
+  }
   .sidebar-tooltip {
     @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-3xl shadow-lg text-white bg-slate-700 text-xs font-bold transition-all duration-100 scale-0 origin-left z-50;
   }

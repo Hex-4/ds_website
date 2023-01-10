@@ -18,27 +18,27 @@ export default function Home() {
       <div className="grid grid-cols-4 grid-rows-3 gap-4 m-8 w-11/12">
         <div className="group row-span-3 p-8 bg-slate-800 rounded-lg hover:bg-secondary transition-all duration-300 shadow-xl">
           <p className="norm-text md:text-5xl text-3xl">
-            We're<b className="text-secondary group-hover:text-blue-600 transition-all duration-300 "> Diamond Studios</b>, a bunch of people trying to make the world cooler.
+            We're <b className="text-secondary group-hover:text-blue-600 transition-all duration-300 ">Diamond Studios</b>, a bunch of people trying to make the world cooler.
           </p>
         </div>
         <div className="group row-span-1 col-span-3 p-8 bg-slate-800 rounded-lg hover:bg-secondary transition-all duration-300 shadow-xl">
           <p className="norm-text md:text-5xl text-3xl">
-            The<b className="text-secondary group-hover:text-blue-600 transition-all duration-300 "> Dimaverse</b> is where our work goes.
+            The <b className="text-secondary group-hover:text-blue-600 transition-all duration-300 ">Dimaverse</b> is where our work goes.
           </p>
         </div>
         <div className="group row-span-1 col-span-2 p-8 bg-slate-800 rounded-lg hover:bg-secondary transition-all duration-300 shadow-xl">
           <p className="norm-text md:text-5xl text-3xl">
-            Check out our projects in<b className="text-secondary group-hover:text-blue-600 transition-all duration-300 "> Our Work.</b>
+            Check out our projects in <b className="text-secondary group-hover:text-blue-600 transition-all duration-300 ">Our Work.</b>
           </p>
         </div>
         <div className="group row-span-1 col-span-2 p-8 bg-slate-800 rounded-lg hover:bg-secondary transition-all duration-300 shadow-xl">
           <p className="norm-text md:text-5xl text-3xl">
-            We love<b className="text-secondary group-hover:text-blue-600 transition-all duration-300 "> storytelling, making, art and fun.</b>
+            We love <b className="text-secondary group-hover:text-blue-600 transition-all duration-300 ">storytelling, making, art and fun.</b>
           </p>
         </div>
         <div className="group row-span-2 col-span-1 col-start-4 row-start-2 p-8 bg-slate-800 rounded-lg hover:bg-secondary transition-all duration-300 shadow-xl">
           <p className="norm-text md:text-5xl text-3xl">
-            <b className="text-secondary group-hover:text-blue-600 transition-all duration-300 ">Explore</b> the Dimaverse and it's denizens in The 'Verse.
+            <b className="text-secondary group-hover:text-blue-600 transition-all duration-300 ">Explore </b>the Dimaverse and it's denizens in The 'Verse.
           </p>
         </div>
       </div>
