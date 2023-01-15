@@ -9,7 +9,7 @@ export default function Special() {
         <h1 className="header text-center">
           New nitro season in<b className="text-secondary">...</b>.
         </h1>
-        <Countdown date={"2023-1-15T24:13:00.000-07:00"} renderer={renderer} />
+        <Countdown date={"2023-1-15T13:00:00.000-07:00"} renderer={renderer} />
         <h1 className="header text-center text-5xl mt-20 mb-96">
           
         </h1>
