@@ -7,12 +7,10 @@ export default function Special() {
     >
       <div className="from-blue-500 to-green-500 h-screen w-screen p-36 transiton-all bg-gradient-to-bl">
         <h1 className="header text-center">
-          New nitro season in<b className="text-secondary">...</b>.
+          New season in<b className="text-secondary">...</b>
         </h1>
-        <Countdown date={"2023-1-15T13:00:00.000-07:00"} renderer={renderer} />
-        <h1 className="header text-center text-5xl mt-20 mb-96">
-          
-        </h1>
+        <Countdown date={"2023-01-15T13:00:00.000-07:00"} renderer={renderer} />
+        
       </div>
     </div>
   );
@@ -25,3 +23,4 @@ const renderer = ({ hours, minutes, seconds, completed }) => {
     </h1>
   );
 };
+
