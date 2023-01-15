@@ -22,7 +22,7 @@ const SideBar = () => {
       </Link>
       <div className="flex-grow"></div>
       <Link to="special">
-        <XSideBarIcon icon={<HiSparkles size="20" />} text="No events..." />
+        <XSideBarIcon icon={<HiSparkles size="20" />} text="New season!" />
       </Link>
       
     </div>
