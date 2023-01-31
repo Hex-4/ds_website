@@ -5,7 +5,7 @@ import App from "./App";
 import ErrorPage from "./error-page";
 import Projects from "./pages/projects";
 import Home from "./pages/home";
-import Special from "./specials/countdown.js";
+import Special from "./specials/nospec";
 
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import "./index.css";
