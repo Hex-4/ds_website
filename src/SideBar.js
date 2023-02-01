@@ -6,6 +6,7 @@ import {
 import { Link } from "react-router-dom";
 import { HiSquares2X2, HiSparkles } from "react-icons/hi2";
 import {IoPlanet} from "react-icons/io5"
+import {BiNews} from "react-icons/bi"
 
 const SideBar = () => {
   return (
@@ -18,7 +19,7 @@ const SideBar = () => {
       </Link>
       <SideBarIcon icon={<IoPlanet size="20" />} text="The 'Verse" />
       <Link to="hypr">
-        <XSideBarIcon icon={<BsFillLightningFill size="20" />} text="Go HYPR" />
+        <SideBarIcon icon={<BiNews size="23" />} text="The Dimaverse Newsletter" />
       </Link>
       <div className="flex-grow"></div>
       <Link to="special">
