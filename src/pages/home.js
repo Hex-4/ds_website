@@ -14,11 +14,16 @@ export default function Home() {
         <h1 className="text-white text-7xl text-center font-black">
           Welcome to the <b className="text-secondary">Dimaverse.</b>
         </h1>
-        <h1 className="text-white text-5xl text-center font-black">
-          The<b className="text-secondary">Dimaverse.</b>
+        <h1 className="text-white text-3xl text-center font-black m-4">
+          The <b className="text-secondary">magical</b> dimension where our work comes to life.
         </h1>
         
       </div>
+        <div className="group bg-slate-800 rounded-lg hover:bg-secondary transition-all duration-300 shadow-xl m-10 p-5">
+          <p className="norm-text text-5xl">
+            The <b className="text-secondary group-hover:text-blue-600 transition-all duration-300 ">latest.</b>
+          </p>
+        </div>
       <div className="grid grid-cols-4 grid-rows-3 gap-4 m-8 w-11/12">
         <div className="group row-span-3 p-8 bg-slate-800 rounded-lg hover:bg-secondary transition-all duration-300 shadow-xl">
           <p className="norm-text md:text-5xl text-3xl">
